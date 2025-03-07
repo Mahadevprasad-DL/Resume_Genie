@@ -1,4 +1,4 @@
-# © Mahadevprasad DL, 2025
+# ©2025, Mahadevprasad DL 
 
 # 🧙‍♂️ ResumeGenie
 
