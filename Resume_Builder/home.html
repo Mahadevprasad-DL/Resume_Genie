@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Maker - Home</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-image: url('assets/images/home.avif');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            overflow: hidden;
+        }
+
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 3cm;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 8px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            animation: slideDown 1s ease-in-out;
+            color: white;
+        }
+
+        @keyframes slideDown {
+            from { top: -100px; }
+            to { top: 0; }
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: bold;
+            color: whitesmoke;
+            margin-left: 40px;
+        }
+
+        
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .nav-buttons a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            background: #007bff;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+            margin-right: 60px;
+        }
+        .nav-buttons a:hover {
+            background: #0056b3;
+            transform: scale(1.1);
+        }
+
+        
+        .welcome-text {
+            margin-top: 100px;
+            font-size: 80px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: black;
+            padding: 15px 30px;
+            border-radius: 10px;
+            display: inline-block;
+            animation: fadeIn 2s ease-in-out;
+            margin-left: 1180px;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        
+        .lets-go-btn {
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+            background: #28a745;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-left: 1180px;
+            transition: 0.3s;
+            animation: bounceIn 2s infinite;
+        }
+
+        .lets-go-btn:hover {
+            background: #218838;
+            transform: scale(1.05);
+        }
+
+        @keyframes bounceIn {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            Resume Builder
+        </div>
+        <div class="nav-buttons">
+            <a href="aboutus.html">About Us</a>
+            <a href="samplecv.html">Sample CV</a>
+        </div>
+    </div>
+
+    <h1 class="welcome-text">Welcome to <br> Resume Maker</h1>
+    <button class="lets-go-btn" onclick="redirectToResume()">Create My Resume</button>
+
+    <script>
+        function redirectToResume() {
+            window.location.href = "resume.html";
+        }
+    </script>
+
+</body>
+</html>
