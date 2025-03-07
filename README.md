@@ -45,6 +45,17 @@ ResumeGenie/
 ├── home.html      # Main HTML file
 └── README.md       # Project documentation
 ```
+## Output
+![Image](https://github.com/user-attachments/assets/f27a0fa5-8938-48b4-ab2b-d54897405b57)
+
+![Image](https://github.com/user-attachments/assets/aa787149-81be-4cdb-82f1-d5f8e5888488)
+
+![Image](https://github.com/user-attachments/assets/b5ec8bda-c7ef-4a47-b6cf-6bd70c708fb2)
+
+![Image](https://github.com/user-attachments/assets/a4247075-b2dd-40db-9970-a8e9889caf39)
+
+![Image](https://github.com/user-attachments/assets/6872f684-a254-41f7-a6ea-ec1e55c10994)
+
 
 ## 🛠️ Technologies Used
 - **HTML5**
